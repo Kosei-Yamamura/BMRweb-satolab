@@ -5,6 +5,7 @@
   <title>Title</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/MovieRadio.css">
   <link rel="stylesheet" href="css/uikit.min.css" />
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
@@ -62,7 +63,7 @@
     </li>
 
     <li class="uk-section-xsmall uk-background-default">
-      <div class="uk-width-1-2">
+      <div class="Movie-Pos">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/v57zyPhcB3Y" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -71,11 +72,18 @@
     </li>
 
     <li class="uk-section-xsmall uk-background-default">
-      <div class="uk-padding uk-text-large">Radio</div>
-      <audio controls controlslist="nodownload" src="Yukari_vioce_Radio/Radio01.mp4"></audio>
+      <div class="container">
+        <div>
+          <!-- 再生ボタン -->
+          <button id="play" class="btn btn-primary">
+            <img src="img/play.jpg" id="img_play" width="320" height="160">
+          </button><!-- #play -->
+        </div>
+      </div>
+      <script src="js/Radio.js"></script>
     </li>
   </ul>
-
+  
 </body>
 
 </html>
