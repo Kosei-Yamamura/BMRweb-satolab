@@ -5,7 +5,6 @@
 const music = new Audio('../Yukari_vioce_Radio/Radio01.mp3');
 const play = document.getElementById('play');
 var img_play = document.getElementById('img_play');
-var img_pause = document.images['img_pause'];
 
 
 // 再生ボタン
