@@ -2,7 +2,7 @@
 
 
 // 要素
-const music = new Audio('Yukari_voice_RadioRadio01.mp3');
+const music = new Audio('https://drive.google.com/uc?id=1jXk5QG1PEqa8HLj4bg19tRFRtDwrI2io');
 const play = document.getElementById('play');
 var img_play = document.getElementById('img_play');
 
