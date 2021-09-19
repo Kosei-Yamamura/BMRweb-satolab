@@ -69,15 +69,17 @@
 
 /* Radio */
 
-.outline{
+.Radio-outline{
+	margin-top: 30px;
 	margin-left: 5%;
-	margin-right: 5%;
+	margin-right: 30%;
 }
 
 .container{
 	/* text-align: center; */
 	/* margin-left: 25%; */
 	display: flex;
+	margin-bottom: 30px;
 }
 
 .container .Play-Buttom{
@@ -87,4 +89,9 @@
 
 .container p{
 	line-height: 5px;
+}
+
+.Radio-Contents{
+	border-top: solid 1px;
+	margin-top: 10px;
 }
