@@ -58,13 +58,14 @@
 }
 
 .Creator-Intro{
-	margin-left: 40px;
-	margin-top: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
 	line-height: 10px;
 }
 
 .Creator-Intro .detail{
-	margin-left: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 /* Radio */
